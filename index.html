@@ -5,119 +5,150 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+		#intro {
+			position: relative;
+			z-index: 1;
+		}
+	
+		#intro:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-image: url('images/Pragya_SF.jpeg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+			z-index: -1;
+		}
+	
+		/* Ensuring content on top of the intro section is not affected by the blur */
+		#intro *:not(:before) {
+			position: relative;
+			z-index: 2;
+		}
+	</style>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Pragya Gupta<br /></h1>
+            <p>Product Management | Go-To-Market Strategy | Data Analysis and Visualization</p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+        </header>
+        <!-- Content continues... -->
+</body>
+</html>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Pragya Gupta<br />
-						</h1>
-						<p>Product Management | Go-To-Market Strategy | Data Analysis and Visualization</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Portfolio</a></li>
-							<li><a href="generic.html">Career Timeline</a></li>
+							
+							
 							
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/pragya-gupta-7732a1119/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							
+							<li><a href="https://www.linkedin.com/in/pragya-gupta-7732a1119/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/pragyag2112" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://drive.google.com/file/d/1TATjl_DcWLtQXGvPekbxwcM_e7QeLNLc/view?usp=share_link" class="icon solid fa-file" target="_blank"><span class="label">Resume</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-
+						
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="#">About</a></h2>
-									<p>Welcome to my professional portfolio. I'm Pragya Gupta, a driven and innovative Product Manager with a comprehensive background in technology and a passion for creating impactful products. My academic credentials, including a Master's in Information Technology Management and a Bachelor's in Computer Science Engineering, provide a solid foundation in the technical aspects vital to effective product management.
-
-										My career is characterized by significant roles in product management, where I've honed my skills in User-Centered Design, Strategic Planning, and Cross-Functional Collaboration. These experiences have equipped me with a robust set of competencies, such as <b>Market Research, A/B Testing, Stakeholder Management, and Go-To-Market Strategy Execution.</b> I'm well-versed in a range of technical tools and methodologies, including <b>SQL, PL/SQL, MySQL, and various CRM and analytics platforms such as Salesforce, HubSpot, Zendesk, Jira, and Tableau</b> enabling me to adeptly handle the multifaceted nature of product development.</b>
-										
-										Currently seeking new opportunities as a Product Manager, I am excited to leverage my track record of guiding products from concept to market, ensuring they meet and exceed user and business expectations. My portfolio below reflects my journey and the skills I've developed through projects, showcasing a professional path dedicated to excellence in product management. I am looking forward to connecting with you to explore how my background and skills can contribute to your team's success.</p>
-								</header>
-								<a href="#" class="image main">
-									<img src="CVpic.jpeg" alt="" style="width: 500px; height: auto; display: block; margin: auto;"/>
-								</a>
+						<article class="post featured">
+							<header class="major">
+								<h2>About</h2>
+								<p><b>I'm Pragya Gupta, an innovative Product Manager</b> with a solid technical foundation, holding a Master's in Information Technology Management and a Bachelor's in Computer Science Engineering. My career spans significant roles in product management, <b>emphasizing User-Centered Design, Strategic Planning, and effective Cross-Functional Collaboration.</b> I bring a diverse skill set, including<b> Market Research, A/B Testing, Stakeholder Management, and executing Go-To-Market Strategies, complemented by proficiency in SQL, PL/SQL, MySQL, Salesforce, HubSpot, Zendesk, Jira, and Tableau.</b> Currently seeking new opportunities, I am eager to apply my expertise in guiding products from concept to market, aiming to exceed user and business expectations.</p>
+							</header>
+							<div class="image main">
+								<img src="CVpic.jpeg" alt="" style="width: 500px; height: auto; display: block; margin: auto;"/>
+							</div>
+						</article>
+						
 								
+						<h2 class="projects-title" style="text-align:center; padding-top: 20px;">Projects</h2>
+	
 								
-								
-							</article>
+							
 
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
 										<span class="date"></span>
-										<h2><a href="#">PRD- eXpress Lane <br />
+										<h2><a href="https://medium.com/@gupta.pragya2101/express-lane-feature-b865be390829" target="_blank">PRD- eXpress Lane <br />
 										Lyft</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="Lyft.jpg.webp" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></a>
+									<div class="image fit"><img src="Lyft.jpg.webp" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></div>
 									<p>Innovated a compelling product vision for Lyft's 'eXpress Lane,' translating the concept into a comprehensive Product Requirements Document and visually bringing it to life through the creation of a detailed mock up using Figma, showcasing a user-centric design and functionality</p>
 									<ul class="actions special">
-										<p><a href="https://medium.com/@gupta.pragya2101/express-lane-feature-b865be390829">View Project</a></p>
+										<p><a href="https://medium.com/@gupta.pragya2101/express-lane-feature-b865be390829" target="_blank"><b>View Project</b></a></p>
 									</ul>
 								</article>
+								
+								<article>
+									<header>
+										<h2><a href="https://drive.google.com/file/d/1NNUl-NsF0RvrMep3ztjuQwO-FQI1XlLW/view?usp=sharing" target="_blank">Driving the future forward<br />Uber x Waymo</a></h2>
+									</header>
+									<div class="image fit"><img src="Uber.png" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></div>
+									<p>This presentation offers a detailed analysis of the groundbreaking partnership between Uber and Waymo, exploring its strategic implications in the realms of autonomous vehicle technology and urban mobility. It covers various aspects including SWOT analysis, the 4Ps of marketing, customer profiles, and the innovative value proposition, providing insights into how this collaboration is shaping the future of transportation.</p>
+									<ul class="actions special">
+										<p><a href="https://drive.google.com/file/d/1NNUl-NsF0RvrMep3ztjuQwO-FQI1XlLW/view?usp=sharing" target="_blank"><b>View Project</b></a></p>
+									</ul>
+								</article>
+								
 							
-							<article>
-								<header>
-									<span class="date"></span>
-									<h2><a href="#">User Personas <br />
-									Quest Protocol</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="quest.png" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></a>
-								<p>Specializing in creating tailored solutions for a diverse range of Web3 users, this portfolio showcases strategies that cater to everyone from budding artists to eco-conscious individuals.</p>
-								<ul class="actions special">
-									<p><a href="https://drive.google.com/file/d/1z8gNiIOH2-x2CoQsvZsZ3yo3T3Dp__Fe/view?ths=true">View Project</a></p>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date"></span>
-									<h2><a href="#">Marketing Strategy<br />
-									Instagram</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="Instagram.jpg" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></a>
-								<p>Showcasing a deep understanding of Instagram's marketing landscape, this portfolio emphasizes the development of tailored content strategies that resonate with diverse audience segments.</p>
-								<ul class="actions special">
-									<p><a href="https://drive.google.com/file/d/1zqMQSvUAusoqBzYYEpCsFKDxh3Jm-eDj/view?usp=share_link">View Project</a></p>
-								</ul>
-							</article>
-							<article>
-								<header>
-									
-									<h2><a href="#">Driving the future forward<br />
-									Uber x Waymo</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="Uber.png" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></a>
-								<p>This presentation offers a detailed analysis of the groundbreaking partnership between Uber and Waymo, exploring its strategic implications in the realms of autonomous vehicle technology and urban mobility. It covers various aspects including SWOT analysis, the 4Ps of marketing, customer profiles, and the innovative value proposition, providing insights into how this collaboration is shaping the future of transportation.</p>
-								<ul class="actions special">
-									<p><a href="https://drive.google.com/file/d/1NNUl-NsF0RvrMep3ztjuQwO-FQI1XlLW/view?usp=sharing">View Project</a></p>
-								</ul>
-							</article>
+								<article>
+									<header>
+										<span class="date"></span>
+										<h2><a href="https://drive.google.com/file/d/1z8gNiIOH2-x2CoQsvZsZ3yo3T3Dp__Fe/view?ths=true" target="_blank">User Personas <br />
+										Quest Protocol</a></h2>
+									</header>
+									<div class="image fit"><img src="quest.png" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></div>
+									<p>Specializing in creating tailored solutions for a diverse range of Web3 users, this portfolio showcases strategies that cater to everyone from budding artists to eco-conscious individuals.</p>
+									<ul class="actions special">
+										<p><a href="https://drive.google.com/file/d/1z8gNiIOH2-x2CoQsvZsZ3yo3T3Dp__Fe/view?ths=true" target="_blank"><b>View Project</b></a></p>
+									</ul>
+								</article>
+								
+								<article>
+									<header>
+										<span class="date"></span>
+										<h2><a href="https://drive.google.com/file/d/1zqMQSvUAusoqBzYYEpCsFKDxh3Jm-eDj/view?usp=share_link" target="_blank">Marketing Strategy<br />
+										Instagram</a></h2>
+									</header>
+									<div class="image fit"><img src="Instagram.jpg" alt="" style="width: 400px; height: auto;display: block; margin: auto;"/></div>
+									<p>Showcasing a deep understanding of Instagram's marketing landscape, this portfolio emphasizes the development of tailored content strategies that resonate with diverse audience segments.</p>
+									<ul class="actions special">
+										<p><a href="https://drive.google.com/file/d/1zqMQSvUAusoqBzYYEpCsFKDxh3Jm-eDj/view?usp=share_link" target="_blank"><b>View Project</b></a></p>
+									</ul>
+								</article>
+								
+							
 							
 		
 						</section>
@@ -128,31 +159,27 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer">
-					
-					<section class="split contact">
-						<section class="alt">
-							<h3>Address</h3>
-							<p>1 Saint Francis Pl<br />
-							San Francisco, CA 94107</p>
-						</section>
-						<section>
-							<h3>Phone</h3>
-							<p><a href="#">(628) 219-4025</a></p>
-						</section>
-						<section>
-							<h3>Email</h3>
-							<p><a href="#">gupta.pragya2101@gmail.com</a></p>
-						</section>
-						<section>
-							<h3>Social</h3>
-							<ul class="icons alt">
-								
-								<li><a href="https://www.linkedin.com/in/pragya-gupta-7732a1119/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-						</section>
+			<footer id="footer">
+				<section class="split contact">
+					<section class="alt">
+						<h3>Address</h3><p>San Francisco, CA</p>
 					</section>
-				</footer>
+					<section>
+						<h3>Phone</h3><p><a href="#">(628) 219-4025</a></p>
+					</section>
+					<section>
+						<h3>Email</h3><p><a href="mailto:gupta.pragya2101@gmail.com">gupta.pragya2101@gmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li><a href="https://www.linkedin.com/in/pragya-gupta-7732a1119/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/pragyag2112" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://drive.google.com/file/d/1TATjl_DcWLtQXGvPekbxwcM_e7QeLNLc/view?usp=share_link" class="icon solid fa-file" target="_blank"><span class="label">Resume</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
 
 			<!-- Copyright -->
 				<div id="copyright">
